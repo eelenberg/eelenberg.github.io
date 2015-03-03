@@ -1,6 +1,8 @@
 /*ut colors are CC5500 003057 D0DEBB C8C9C7*/
+/*BF5700 005F86/333F48 43695B D6D2C4*/
 body {
-	font-family:arial, verdana, helvetica, sans-serif;
+	/*font-family: "Source Sans Pro", "Helvetica Neue", arial, verdana, helvetica, sans-serif;*/
+	font-family: arial, verdana, helvetica, sans-serif;
 	font-size:12px;
 	cursor:auto; /*was default*/
 	background-color:#FFFFFF
@@ -24,7 +26,8 @@ html {
 #header {
 	width:100%;
 	padding-top:15px;
-	/*background-color:#D6D2C4;*/
+	/*background: url(opera2.jpg) no-repeat center center scroll;*/
+	/*background-color:#E6E6E6;*/
 }
 .spacer {
 	width:100%;
@@ -40,26 +43,30 @@ hr {
 	text-align: left;
 }
 h1 {
-	font-size:28px;
-	color:#cc5500;
+	/*font-size:32px;*/ /*was 28*/
+	font-size:36px; /*SSP was 28*/
+	color:#bf5700;
 	/*background-color:#C8C9C7;*/
 	background-color:#D6D2C4;
-	font-family:Arial, Verdana, Helvetica, sans-serif;
-	font-weight:300;
+	/*font-family:Arial, Verdana, Helvetica, sans-serif;
+	/*font-weight:300;*/
+	font-weight:500;
 }
 h2 {
-	font-size:15px;
-	color:#003057;
-	font-family:Arial, Verdana, Helvetica, sans-serif;
-	font-weight:300;
-	/*background-color:#C8C9C7;*/
+	/*font-size:15px;*/
+	font-size:20px;
+	/*font-size:25px;*/ /*SSP*/
+	color:#333f48;
+	/*font-family:Arial, Verdana, Helvetica, sans-serif;*/
+	font-weight:500;
 	background-color:#D6D2C4;
 }
 h3 {	
-	color:#cc5500; /* either 003057 or cc5500*/
+	color:#bf5700; /* either 333f48 or bf5700*/
 	font-size:15px;
+	/*font-size:25px;*/ /*SSP*/
 	text-align:left;
-	font-weight:300;
+	font-weight:400;
 	padding:5px;
 	margin-top:5px;
 }
@@ -83,19 +90,19 @@ p {
 	padding:5px;
 }
 a {
-	color:#cc5500;
+	color:#bf5700;
 	background-color:#FFFFFF;
 	text-decoration:none;
 }
 a:hover {
-	color:#003057;
+	color:#333f48;
 	background-color:#FFFFFF;
 	text-decoration:underline;
 }
 #footer {
 	clear:both;
 	font-size:12px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
+	/*font-family:Verdana, Arial, Helvetica, sans-serif;*/
 }
 .right {
 	color:gray;
