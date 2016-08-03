@@ -23,7 +23,8 @@ a {
 	text-decoration:none;
 }
 a:hover {
-	color:#333f48;
+    color:#333f48;
+	/*color:#005f86;*/
 	background-color:#FFFFFF;
 	text-decoration:underline;
 }
@@ -59,6 +60,7 @@ a:hover {
 .btn-ut:active {
     color: #fff;
     background-color: #333f48;
+    /*background-color: #005f86;*/
 }
 
 .btn-utnav {
@@ -146,7 +148,7 @@ hr.small {
     display: block;
     text-decoration: none;
     color: #333f48;
-	/*color: #999;*/
+    /*color: #999;*/
 }
 
 .sidebar-nav li a:hover {
@@ -170,7 +172,7 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand a {
     color: #333f48;
-	/*color: #D6D2C4;*/
+    /*color: #D6D2C4;*/
 	/*color: #999;*/
 }
 
