@@ -18,20 +18,24 @@ body {
 }
 /*overwrite bootstrap.css?*/
 a {
-	color:#bf5700;
+    /*color:#bf5700;*/
+	color:#2F3061;
 	background-color:#FFFFFF;
-	text-decoration:none;
+    text-decoration:underline;
 }
 a:hover {
-    color:#333f48;
-	/*color:#005f86;*/
+    /*color:#333f48;*/
+    /*color:#005f86;*/
+    color:#bf5700;
 	background-color:#FFFFFF;
 	text-decoration:underline;
 }
 .bg-primary {
-  color: #fff;
-  background-color: #bf5700;
+  /*color: #fff;
+  background-color: #bf5700;*/
   /*background-color: #333f48;*/
+  color: #2F3061;
+  background-color: rgba(237,237,237,1); /*same as rgb*/
 }
 
 .text-vertical-center {
@@ -63,6 +67,37 @@ a:hover {
     /*background-color: #005f86;*/
 }
 
+.btn-asp {
+    border-radius: 0;
+    color: #fff;
+    background-color: #2F3061;
+    text-decoration: none;
+    /*color: #2F3061;
+    background-color: rgba(237,237,237,0.7);*/
+}
+
+.btn-asp:hover,
+.btn-asp:focus,
+.btn-asp:active {
+    color: #fff;
+    background-color: #bf5700;
+    /*background-color: #2F3061;*/
+}
+
+.btn-aspnav {
+    border-radius: 0;
+    color: #2F3061;
+    background-color: rgba(237,237,237,0.7); /*same as rgb*/
+}
+
+.btn-aspnav:hover,
+.btn-aspnav:focus,
+.btn-aspnav:active {
+    color: #fff;
+    /*color: #2F3061;*/
+    background-color: #2F3061;
+}
+
 .btn-utnav {
     border-radius: 0;
     color: #fff;
@@ -75,12 +110,13 @@ a:hover {
 .btn-utnav:active {
     color: #fff;
     /*background-color: #000000;*/
-	background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
+    color: #2F3061;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -121,8 +157,9 @@ hr.small {
     margin-right: -250px;
     overflow-y: auto;
     /*background: #333f48;*/
-	background: #D6D2C4;
+	/*background: #D6D2C4;*/
 	/*background: #222;*/
+    background: rgba(237,237,237,1);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -147,7 +184,8 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #333f48;
+    /*color: #333f48;*/
+    color: #2F3061;
     /*color: #999;*/
 }
 
@@ -155,8 +193,10 @@ hr.small {
     text-decoration: none;
     /*color: #fff;
     background: rgba(255,255,255,0.2);*/
-	color: #333f48;
-	background: #D6D2C4;
+    /*color: #333f48;*/
+	color: #2F3061;
+	/*background: #D6D2C4;*/
+    background: rgba(237,237,237,1);
 }
 
 .sidebar-nav li a:active,
@@ -171,7 +211,8 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #333f48;
+    /*color: #333f48;*/
+    color: #2F3061;
     /*color: #D6D2C4;*/
 	/*color: #999;*/
 }
@@ -179,8 +220,10 @@ hr.small {
 .sidebar-nav > .sidebar-brand a:hover {
     /*color: #fff;
     background: none;*/
-	color: #333f48;
-	background: #D6D2C4;
+    /*color: #333f48;*/
+	color: #2F3061;
+	/*background: #D6D2C4;*/
+    background: rgba(237,237,237,1); /*same as rgb*/
 }
 
 #menu-toggle {
