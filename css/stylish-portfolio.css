@@ -13,20 +13,23 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-	/*color: #333f48;*/
+    /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: "DM Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*color: #333f48;*/
 }
 /*overwrite bootstrap.css?*/
 a {
     /*color:#bf5700;*/
-	color:#2F3061;
+    /*color:#2F3061;*/
+	color:#4C494D;
 	background-color:#FFFFFF;
     text-decoration:underline;
 }
 a:hover {
     /*color:#333f48;*/
     /*color:#005f86;*/
-    color:#bf5700;
+    /*color:#bf5700;*/
+    color:#EF4123;
 	background-color:#FFFFFF;
 	text-decoration:underline;
 }
@@ -34,7 +37,8 @@ a:hover {
   /*color: #fff;
   background-color: #bf5700;*/
   /*background-color: #333f48;*/
-  color: #2F3061;
+  /*color: #2F3061;*/
+  color: #4C494D;
   background-color: rgba(237,237,237,1); /*same as rgb*/
 }
 
@@ -48,7 +52,8 @@ a:hover {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
-    font-weight: 700;
+    /*font-family: "Source Sans Pro";*/
+    font-weight: 900;
 }
 
 /* Custom Button Styles */
@@ -70,7 +75,7 @@ a:hover {
 .btn-asp {
     border-radius: 0;
     color: #fff;
-    background-color: #2F3061;
+    background-color: #4C494D;
     text-decoration: none;
     /*color: #2F3061;
     background-color: rgba(237,237,237,0.7);*/
@@ -80,13 +85,13 @@ a:hover {
 .btn-asp:focus,
 .btn-asp:active {
     color: #fff;
-    background-color: #bf5700;
+    background-color: #EF4123;
     /*background-color: #2F3061;*/
 }
 
 .btn-aspnav {
     border-radius: 0;
-    color: #2F3061;
+    color: #4C494D;
     background-color: rgba(237,237,237,0.7); /*same as rgb*/
 }
 
@@ -95,7 +100,7 @@ a:hover {
 .btn-aspnav:active {
     color: #fff;
     /*color: #2F3061;*/
-    background-color: #2F3061;
+    background-color: #4C494D;
 }
 
 .btn-utnav {
@@ -116,7 +121,7 @@ a:hover {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    color: #2F3061;
+    color: #4C494D;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -185,7 +190,7 @@ hr.small {
     display: block;
     text-decoration: none;
     /*color: #333f48;*/
-    color: #2F3061;
+    color: #4C494D;
     /*color: #999;*/
 }
 
@@ -194,7 +199,7 @@ hr.small {
     /*color: #fff;
     background: rgba(255,255,255,0.2);*/
     /*color: #333f48;*/
-	color: #2F3061;
+	color: #4C494D;
 	/*background: #D6D2C4;*/
     background: rgba(237,237,237,1);
 }
@@ -212,7 +217,7 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand a {
     /*color: #333f48;*/
-    color: #2F3061;
+    color: #4C494D;
     /*color: #D6D2C4;*/
 	/*color: #999;*/
 }
@@ -221,7 +226,7 @@ hr.small {
     /*color: #fff;
     background: none;*/
     /*color: #333f48;*/
-	color: #2F3061;
+	color: #4C494D;
 	/*background: #D6D2C4;*/
     background: rgba(237,237,237,1); /*same as rgb*/
 }
@@ -260,6 +265,8 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    /*font-size: 1.25em;*/
+    /*font-weight: 600;*/
 }
 
 /* About */
