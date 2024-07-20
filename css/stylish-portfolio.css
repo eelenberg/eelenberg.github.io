@@ -13,8 +13,8 @@ body {
 }
 
 body {
-    /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: "DM Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Source Sans 3","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: "Source Sans 3", "DM Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
     /*color: #333f48;*/
 }
 /*overwrite bootstrap.css?*/
